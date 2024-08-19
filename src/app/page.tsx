@@ -1,5 +1,5 @@
-// pages/index.tsx
 "use client";
+
 import { useEffect } from 'react';
 
 const Home = () => {
@@ -14,9 +14,9 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Exemplo coda mundo</h1>
-      <pre>print("Hello, World!")</pre>
+    <div className="snippet-container">
+      <h1>Bem-vindo ao meu projeto Next.js!</h1>
+      <pre>print(&quot;Hello, World!&quot;)</pre>
       <codapi-snippet sandbox="python" editor="basic"></codapi-snippet>
     </div>
   );
